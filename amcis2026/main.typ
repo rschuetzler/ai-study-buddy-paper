@@ -31,7 +31,7 @@
 
 
 = Introduction
-Artificial intelligence (AI), particularly large language models (LLMs) and conversational agents, is increasingly embedded in students’ everyday academic work. While existing research has largely focused on AI as a source of informational support, less is known about how the presence of AI systems influences student focus and productivity during independent study. As AI systems become more socially interactive and embodied, understanding their behavioral and psychological impact extends beyond performance metrics to questions of accountability, engagement, and perceived co-presence. For information systems, this shift raises important questions about how different forms of AI presence shape human behavior in technology-mediated environments.
+// Artificial intelligence (AI), particularly large language models (LLMs) and conversational agents, is increasingly embedded in students’ everyday academic work. While existing research has largely focused on AI as a source of informational support, less is known about how the presence of AI systems influences student focus and productivity during independent study. As AI systems become more socially interactive and embodied, understanding their behavioral and psychological impact extends beyond performance metrics to questions of accountability, engagement, and perceived co-presence. For information systems, this shift raises important questions about how different forms of AI presence shape human behavior in technology-mediated environments.
 
 Self-study contexts present a persistent challenge in higher education, where students frequently struggle with task initiation, sustained attention, and distraction @fichten2022What. Prior work in human-robot interaction suggests that embodiment and social cues may increase relational engagement and enjoyment compared to screen-based systems @leeArePhysicallyEmbodied2006 @hoffmannInvestigatingEffectsPhysical2013. Similarly, emerging research on AI companions and social robots indicates that goal acknowledgment and emotional signaling can enhance perceived focus and motivation @cho2025Motivating. However, most prior studies combine AI presence with active interventions such as reminders or coaching, making it difficult to isolate whether productivity gains stem from informational assistance or from perceived social presence. Moreover, limited research directly compares embodied AI, conversational AI, and control conditions within authentic university self-study settings.
 
@@ -50,7 +50,14 @@ Digital tools have been developed to support time management and social connecti
 == Social Presence Theory
 Social Presence Theory proposes that the degree to which a communication medium conveys the sense of another “real” person influences interpersonal engagement, motivation, and behavioral outcomes @Short1976. Originally developed in communication research, the theory suggests that perceived social presence increases feelings of connection, accountability, and relational investment. In educational contexts, higher levels of perceived social presence have been associated with increased participation, engagement, and persistence @richardson2003Examining. 
 
-Within AI-mediated environments, embodiment and conversational abilities may enhance perceived social presence. Physical robots, for example, may convey stronger social cues through movement, gaze, and spatial location, potentially increasing accountability compared to disembodied chatbots @lukasik2025Robots. Even text-based conversational agents may evoke social presence if users attribute  intentionality to them @schuetzler2020Impact. In this study, Social Presence Theory provides a lens for understanding how embodied versus conversational AI may differentially influence student focus and productivity.
+Within AI-mediated environments, embodiment and conversational abilities may enhance perceived social presence. Physical robots, for example, may convey stronger social cues through movement, gaze, and spatial location, potentially increasing accountability compared to disembodied chatbots @lukasik2025Robots. Even text-based conversational agents may evoke social presence if users attribute intentionality to them @schuetzler2020Impact. In this study, Social Presence Theory provides a lens for understanding how embodied versus conversational AI may differentially influence student focus and productivity.
+
+Physically embodied agents have been shown to generate stronger perceptions of co-presence, warmth, and relational engagement than screen-based counterparts, even when the underlying conversational capabilities are held constant @leeArePhysicallyEmbodied2006 @hoffmannInvestigatingEffectsPhysical2013. These findings suggest that an embodied robot, by occupying shared physical space and offering nonverbal social cues such as movement and gaze, will be perceived as more socially present than a chatbot displayed on a screen. Furthermore, we expect that even among screen-based agents, spatial separation matters: a chatbot running on a dedicated device may be perceived as a more distinct social entity than one embedded within the student's own workspace, where it competes for attention alongside other applications and browser tabs. Accordingly, we propose the following hypotheses:
+
+_H1: An AI robotic agent will elicit greater social presence than computer-based agents._
+
+_H2: An AI agent on a dedicated laptop will elicit greater social presence than from the student's computer._
+
 
 == Body Doubling 
 Body doubling refers to the practice of using the presence of another person to initiate and sustain task engagement. Whether in person or virtual, body doubling provides accountability for productivity that can help knowledge workers focus on a task @eagle2024It. It is most frequently discussed within neurodivergent communities and particularly among individuals with ADHD. 
@@ -58,10 +65,6 @@ Body doubling refers to the practice of using the presence of another person to 
 Research on ADHD students in post-secondary education further demonstrates the importance of collaborative strategies in managing academic demands @arnold2025Individual. Rather than relying solely on formal accommodations, students frequently develop shared accountability practices to sustain motivation and focus. Emerging design research suggests that AI systems may simulate body doubling interactions by providing goal reminders, check-ins, or conversational engagement @mazanik2024Leveraging. This study builds on the concept of body doubling by examining whether AI, either embodied as a robot or delivered through a chatbot, can replicate or approximate the accountability mechanisms traditionally produced through human co-presence. Further, we will investigate the impact of physical co-presence through the comparison of the robot and chatbot conditions.
 
 While others have investigated the use of robots as motivational companions @oconnell2024Design @mazanik2024Leveraging @cho2025Motivating, we are the first to directly compare the physically embodied robot to virtual presence through a laptop-based chatbot. We propose the following hypotheses relating to this research.
-
-_H1: An AI robotic agent will elicit greater social presence than computer-based agents._
-
-_H2: An AI agent on a dedicated laptop will elicit greater social presence than from the student's computer._
 
 _H3: Agents with greater social presence will elicit a greater body-doubling effect._
 
@@ -73,7 +76,7 @@ We plan to recruit 100 students who are (1) 18 years or older, (2) fluent in Eng
 
 == Study Procedure
 
-Upon arrival at the research site, participants will be briefed on the overall study procedure and sign the informed consent form to participate in the study. Then they will be asked to complete a set of pre-study questions to collect information about their demographics and usual self-study behaviors and habits.
+Upon arrival at the research site, participants will be briefed on the overall study procedure and sign the informed consent form to participate in the study. Then they will be asked to complete a set of pre-study questions to collect information about their demographics and usual self-study behaviors and habits. They will also complete the Attentional Control Scale @judah2014Factor to assess individual differences in their ability to focus and shift attention. This measure allows us to examine whether participants' baseline attentional control moderates the effectiveness of AI presence on study outcomes.
 
 Our study will be conducted in a quiet office space where participants can engage in self-study for thirty minutes under one of four experimental conditions. To capture students' realistic study behaviors, participants will be informed to bring their own study materials (e.g., homework assignment, study guide) prior to our study. While this introduces variability in study content, we will have students select their own study materials for more authentic and natural self-study behaviors.
 
@@ -91,7 +94,7 @@ After the self-study session, participants will complete the post-study question
 = Data Collection
 
 == Self-reported Measures
-After the self-study session, participants will complete a post-study questionnaire to perceived stress and concentration on academic workload, current strategies for focus using the Attention Control scale @judah2014Factor, perceived productivity and concentration level during the self-study session, effectiveness of the AI companion (where applicable), and the acceptance of assistive robot scale developed by #cite(<heerink2008Influence>, form: "prose"), which measures the effectiveness of intervention, the system's perceived ease of use, perceived usefulness, perceived enjoyment, trust in the system, and overall satisfaction. For the control condition, participants will complete adapted versions of these scales that assess their self-study experience without reference to an AI system.
+After the self-study session, participants will complete a post-study questionnaire to perceived stress and concentration on academic workload,  perceived productivity and concentration level during the self-study session, effectiveness of the AI companion (where applicable), and the acceptance of assistive robot scale developed by #cite(<heerink2008Influence>, form: "prose"), which measures the effectiveness of intervention, the system's perceived ease of use, perceived usefulness, perceived enjoyment, trust in the system, and overall satisfaction. For the control condition, participants will complete adapted versions of these scales that assess their self-study experience without reference to an AI system.
 
 // == Post-study Interview
 
@@ -99,7 +102,7 @@ After the self-study session, participants will complete a post-study questionna
 
 == Data Analysis
 
-Participants' post-questionnaire responses will be analyzed using appropriate statistical tests to compare responses across the four experimental conditions. We will examine differences in perceived productivity, concentration, satisfaction, and other measured variables between conditions.
+Participants' post-questionnaire responses will be analyzed using ANOVA to compare responses across the four experimental conditions. We will examine differences in perceived productivity, concentration, satisfaction, and other measured variables between conditions.
 
 // == Behavioral Annotations and Analyses
 
