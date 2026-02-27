@@ -64,9 +64,11 @@ Body doubling refers to the practice of using the presence of another person to 
 
 Research on ADHD students in post-secondary education further demonstrates the importance of collaborative strategies in managing academic demands @arnold2025Individual. Rather than relying solely on formal accommodations, students frequently develop shared accountability practices to sustain motivation and focus. Emerging design research suggests that AI systems may simulate body doubling interactions by providing goal reminders, check-ins, or conversational engagement @mazanik2024Leveraging. This study builds on the concept of body doubling by examining whether AI, either embodied as a robot or delivered through a chatbot, can replicate or approximate the accountability mechanisms traditionally produced through human co-presence. Further, we will investigate the impact of physical co-presence through the comparison of the robot and chatbot conditions.
 
-While others have investigated the use of robots as motivational companions @oconnell2024Design @mazanik2024Leveraging @cho2025Motivating, we are the first to directly compare the physically embodied robot to virtual presence through a laptop-based chatbot. We propose the following hypotheses relating to this research.
+Although body doubling and social presence emerge from distinct literatures, they converge on a shared mechanism: the perception that another entity is present and attentive. Body doubling research suggests that the mere presence of another person can provide sufficient accountability to sustain task engagement @eagle2024It. Tools like Focusmate (https://www.focusmate.com/) allow users to connect to strangers to do this. Social Presence Theory offers an explanation for why this effect occurs: individuals who perceive a communication partner as more "real" experience greater feelings of connection and accountability @Short1976. Applied to AI-mediated study environments, this theoretical integration suggests that AI systems perceived as more socially present should function as more effective body doubles, generating stronger accountability and sustained focus. We therefore hypothesize:
 
-_H3: Agents with greater social presence will elicit a greater body-doubling effect._
+While others have investigated the use of robots as motivational companions @oconnell2024Design @mazanik2024Leveraging @cho2025Motivating, we are the first to directly compare the physically embodied robot to virtual presence through a laptop-based chatbot.
+
+_H3: Agents with greater social presence will elicit a greater body-doubling effect, measured by improved ability to focus during a study task._
 
 = Methodology
 
@@ -78,12 +80,14 @@ We plan to recruit 100 students who are (1) 18 years or older, (2) fluent in Eng
 
 Upon arrival at the research site, participants will be briefed on the overall study procedure and sign the informed consent form to participate in the study. Then they will be asked to complete a set of pre-study questions to collect information about their demographics and usual self-study behaviors and habits. They will also complete the Attentional Control Scale @judah2014Factor to assess individual differences in their ability to focus and shift attention. This measure allows us to examine whether participants' baseline attentional control moderates the effectiveness of AI presence on study outcomes.
 
+#figure(image("assets/reachy.jpg", height: 40%),
+caption: [The Reachy Mini robot]) <reachy>
+
+
 Our study will be conducted in a quiet office space where participants can engage in self-study for thirty minutes under one of four experimental conditions. To capture students' realistic study behaviors, participants will be informed to bring their own study materials (e.g., homework assignment, study guide) prior to our study. While this introduces variability in study content, we will have students select their own study materials for more authentic and natural self-study behaviors.
 
 In the AI on participant's laptop condition, participants will interact with a voice-based AI chatbot on their personal device. In the AI on researcher-provided laptop condition, participants will interact with an AI chatbot on a laptop provided by the research team. In the AI on Reachy Mini robot condition, participants will interact with the Reachy Mini robot equipped with conversational AI capabilities.  In the control condition, participants will study independently without any AI assistance or physical companion present.
 
-#figure(image("assets/reachy.jpg", height: 40%),
-caption: [The Reachy Mini robot]) <reachy>
 
 For all three AI conditions, participants will begin by verbally stating their SMART goal (Specific, Measurable, Achievable, Relevant, Time-bound) to the AI system. The AI will acknowledge the goal and set a timer for the thirty-minute study session. During the study session, the AI will not provide any interventions, reminders, or support. At the conclusion of the thirty minutes, the AI will notify the participant that time has elapsed. This minimal-intervention approach differs from prior work in that it isolates the effect of AI presence and embodiment rather than active motivational support. The AI will then ask participants how their study session went in relation to their goal.
 
