@@ -1,0 +1,7 @@
+# Review Response
+
+We appreciate the reviewers and minitrack/track chairs for their time spent with this manuscript. We appreciate the concerns raised, and will certainly incorporate those into the study. Regarding the concerns raised:
+
+- For R1's concern about "no hypothesis directly addresses the relationship between AI embodiment and learning-related outcomes" - our proposed theoretical path for embodiment is mediated by social presence. H1 and H3 together form this proposed path. We will, for the actual study, propose the direct path. Unfortunately space and time limitations inhibit us from including these hypotheses in this current draft.
+- For R1 and R2's shared concern about letting students use their own study materials, we agree and acknowledge that this introduces a potential dilution of effects, but we feel that the increased external validity is worth that sacrifice. As participants work on their own study materials, we'll mimicking the real world more closely (though still not perfectly), allowing us to get a better idea if this will work outside the lab. While we could use experimental learning materials instead, we feel this sacrifices too much realism.
+- Furthermore, we do not have space for the additional requested specifics regarding measures. We have already had to trim the paper from the submitted version to fit the page requirements in the final format. 
